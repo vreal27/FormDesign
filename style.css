@@ -1,0 +1,84 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: rgb(75,144,203);
+	font-family: Verdana, sans-serif;
+	color: white;
+	
+}
+
+form {
+	display: flex; 
+	justify-content:center;
+}
+
+
+fieldset {
+	width:100%;
+	border: none;
+	max-width:300px;
+}
+
+
+input, select, textarea {
+	font-size: 14px;
+	color: white;
+	display: block; 
+	border: solid;
+	border-color: white;
+	border-width: thin;
+	background-color: rgb(75,144,203);
+	width: 100%;
+	height: 42px;
+	padding-left:10px;
+	margin-top: 4px;
+
+}
+
+input:focus {
+	border-color: rgb(34,85,134);
+	outline-color: rgb(34,85,134);
+}
+
+textarea:focus {
+	border-color: rgb(34,85,134);
+	outline-color: rgb(34,85,134);
+}
+
+select:focus{
+	border-color: rgb(34,85,134);
+	outline-color: rgb(34,85,134);
+}
+
+
+label {
+	font-size: 12px;
+}
+
+.textbox {
+	height: 110px;
+}
+
+.dropdown {
+	height: 22px;
+	font-size: 12px;
+	color: white;
+
+}
+
+::placeholder {
+	color: rgb(55,85,109);
+	font-style: italic;
+	font-size: 14px;
+	font-weight:normal;
+}
+
+
+
+
